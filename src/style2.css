@@ -1,0 +1,27 @@
+.images-1>img{
+  width: 100%;
+}
+.images{
+  position: absolute;
+}
+.images-2{
+ position:relative;
+ bottom:150px;
+ left:110px;
+}
+.images-2>button{
+  padding: 10px;
+  color: white;
+  background-color: whitesmoke;
+  color: black;
+}
+@media screen and (max-width:800px){
+  .images-2{
+   position: relative;
+   bottom:50px;
+   left: 38px;
+  }
+  .images-2>button{
+    padding: 5px;
+  }
+}
