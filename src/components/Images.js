@@ -8,6 +8,9 @@ function Images()
      <div class="images-2">
     <button>Book Free Consultation</button>
    </div>
+   <div class="images-3">
+    <button>Download Portfolio</button>
+   </div>
    </div>
   
     </div>

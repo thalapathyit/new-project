@@ -1,0 +1,65 @@
+.services-1>h1{
+  display: flex;
+  justify-content: center;
+ color:rgb(118, 21, 118);
+ margin: 5px;
+}
+.services{
+  background-color:rgb(222, 93, 136);
+ position: relative;
+ bottom:10px;
+}
+.services-2{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+.services-card{
+  margin: 5px;
+border: 2px solid black;
+border: none;
+border-radius:3%;
+width:300px;
+height:260px;
+padding: 19px;
+text-align: center;
+background-color: rgb(19, 19, 99);
+color: white;
+}
+.services-card>p{
+  margin-top: 10px;
+}
+.services-card>img{
+width:250px;
+height: 150px;
+
+ 
+}
+.services-card>button{
+  padding: 15px;
+  color: black;
+  background-color: rgb(233, 157, 15);
+  margin-top:13px;
+  border: none;
+}
+.services-card>h3{
+  color: darkcyan;
+}
+@media screen and (max-width:500px)
+{
+  .services-card>img{
+   width:100%;
+  }
+  .services-ca5d{
+    flex-basis:24%;
+    width: 100%;
+  }
+  .services-card>button{
+    padding: 15px;
+    color: black;
+    background-color: rgb(233, 157, 15);
+    margin-top:35px;
+    border: none;
+  }
+}

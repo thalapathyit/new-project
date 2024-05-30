@@ -1,8 +1,17 @@
+import Navbar from './components/Navbar';
+import Images from './components/Images';
+import Service from './components/Service';
+import "./style.css"
+import "./style2.css"
+import "./style3.css"
 function App()
 {
   return(
-    <h1>HII</h1>
+    <>
+<Navbar/>
+<Images/>
+<Service/>
+    </>
   )
 }
-
-export default App;
+export default (App)
